@@ -1313,6 +1313,8 @@ static void make_item(struct s_base *fp,
                 hp->t = ITEM_GROW;
             else if (strcmp(v[i], "item_health_small") == 0)
                 hp->t = ITEM_SHRINK;
+            elseif (strcmp(v[i], "lightJunior") == 0)
+                hp->t = ITEM_CLOCK;
         }
 
         if (strcmp(k[i], "light") == 0)

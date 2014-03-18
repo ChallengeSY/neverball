@@ -698,6 +698,9 @@ static int game_update_state(int bt)
         {
             coins += hp->n;
             game_cmd_coins();
+        } else {hp->t == ITEM_CLOCK) {
+            timer += hp->n;
+            game_cmd_timer();
         }
 
         audio_play(AUD_COIN, 1.f);

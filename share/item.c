@@ -25,11 +25,15 @@
 static struct s_full item_coin_file;
 static struct s_full item_grow_file;
 static struct s_full item_shrink_file;
+static struct s_full item_clock_file;
 
 void item_color(const struct v_item *hp, float *c)
 {
     switch (hp->t)
     {
+    case ITEM_CLOCK:
+        /* Fall through to coin */
+
     case ITEM_COIN:
 
         if (hp->n >= 1)
@@ -89,6 +93,7 @@ void item_init(void)
     sol_load_full(&item_coin_file,   "item/coin/coin.sol",     0);
     sol_load_full(&item_grow_file,   "item/grow/grow.sol",     0);
     sol_load_full(&item_shrink_file, "item/shrink/shrink.sol", 0);
+    sol_load_full(&item_clock_file,  "item/clock/clock.sol",   0);
 }
 
 void item_free(void)
@@ -96,6 +101,7 @@ void item_free(void)
     sol_free_full(&item_coin_file);
     sol_free_full(&item_grow_file);
     sol_free_full(&item_shrink_file);
+    sol_free_full(&item_clock_file);
 }
 
 void item_draw(struct s_rend *rend,
@@ -109,6 +115,7 @@ void item_draw(struct s_rend *rend,
     case ITEM_COIN:   draw = &item_coin_file.draw;   break;
     case ITEM_GROW:   draw = &item_grow_file.draw;   break;
     case ITEM_SHRINK: draw = &item_shrink_file.draw; break;
+    case ITEM_CLOCK:  draw = &item_clock_file.draw;  break;
     }
 
     glDepthMask(GL_FALSE);
