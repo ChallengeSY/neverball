@@ -200,6 +200,10 @@ void hud_update(int pulse)
                 audio_play(AUD_TOCK, 1.f);
                 gui_pulse(time_id, 1.25);
             }
+            else if (clock > last && timer_down)
+            {
+                gui_pulse(time_id, 1.25);
+            }
         }
     }
 

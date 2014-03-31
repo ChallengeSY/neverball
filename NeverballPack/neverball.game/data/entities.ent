@@ -77,6 +77,13 @@ Attributes:
 * <coin key="light" name="Value" value="1">Value of the coin.  Yellow coin = 1, red coin = 5, blue coin = 10.</coin>
 </point>
 
+<point name="lightJunior" color="0.65 0.65 1" box="-8 -8 -8 8 8 8">
+Defines a clock, adding time to a level.
+
+Attributes:
+* <coin key="light" name="Value" value="1">Value of the clock.  Yellow clock = +1 second, red coin = +5 seconds, blue coin = +10 seconds.</coin>
+</point>
+
 
 <point name="misc_model" color="1 0.5 0.25" box="-16 -16 -16 16 16 16">
 Imports an arbitrary polygonal model into a level.  It may be used to increase the visual detail of a level without increasing the physical detail.  Arbitrary normal vectors are allowed, so the misc_model entity can be used to produce smoothly shaded curves.
