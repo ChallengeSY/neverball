@@ -19,6 +19,7 @@ void  game_client_draw(int, float);
 void  game_client_blend(float);
 
 int   curr_clock(void);
+int   curr_clock_state(void);
 int   curr_coins(void);
 int   curr_status(void);
 
