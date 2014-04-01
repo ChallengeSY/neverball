@@ -480,11 +480,6 @@ int curr_clock(void)
     return (int) (timer * 100.f);
 }
 
-int curr_clock_state(void)
-{
-    return timer_down;
-}
-
 int curr_coins(void)
 {
     return coins;

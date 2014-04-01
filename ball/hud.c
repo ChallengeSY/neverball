@@ -163,7 +163,6 @@ void hud_paint(void)
 void hud_update(int pulse)
 {
     int clock = curr_clock();
-    int countdown = curr_clock_state();
     int coins = curr_coins();
     int goal  = curr_goal();
     int balls = curr_balls();
@@ -199,9 +198,6 @@ void hud_update(int pulse)
             else if (clock < 500 && (last / 50) > (clock / 50))
             {
                 audio_play(AUD_TOCK, 1.f);
-                gui_pulse(time_id, 1.25);
-            }
-            else if (clock > last && countdown) {
                 gui_pulse(time_id, 1.25);
             }
         }
