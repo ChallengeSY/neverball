@@ -4,7 +4,7 @@
 "classname" "worldspawn"
 "message" "Hyper Jumps\How much time can you collect?"
 "back" "map-back/volcano.sol"
-"shot" "shot-misc/huperjumps.png"
+"shot" "shot-misc/hyperjumps.png"
 "grad" "back/volcano.png"
 "song" "bgm/track6.ogg"
 "time" "1000"
