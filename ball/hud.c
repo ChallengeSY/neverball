@@ -201,6 +201,9 @@ void hud_update(int pulse)
                 gui_pulse(time_id, 1.25);
             }
         }
+        else if (clock > last + 50 && last > 0) {
+            gui_pulse(time_id, 1.25);
+        }
     }
 
     /* balls and score + select coin widget */

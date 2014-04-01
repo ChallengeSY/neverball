@@ -22,11 +22,6 @@ D: Screenshot naming tweaks
 D: Teleport design
 D: Volcano background
 
-N: Challenge Space Yard
-E: challengespaceyard@gmail.com
-D: High-score updates
-D: Neverputt tweaks
-
 N: Wei-Lun Chao
 E: chaoweilun@gmail.com
 D: Traditional Chinese translation
@@ -160,6 +155,12 @@ E: parasti@gmail.com
 D: Developer
 D: Latvian translation
 D: Neverball maps
+
+N: Paul Ruediger (Challenge Space Yard)
+E: challengespaceyard@gmail.com
+D: Collectible clocks
+D: High-score updates
+D: Neverputt tweaks
 
 N: rotajota
 D: Hillcrest Labs Loop support

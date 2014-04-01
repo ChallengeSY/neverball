@@ -1623,6 +1623,7 @@ static void read_ent(struct s_base *fp, fs_file fin)
     if (!strcmp(v[i], "light"))                    make_item(fp, k, v, c);
     if (!strcmp(v[i], "item_health_large"))        make_item(fp, k, v, c);
     if (!strcmp(v[i], "item_health_small"))        make_item(fp, k, v, c);
+    if (!strcmp(v[i], "lightJunior"))              make_item(fp, k, v, c);
     if (!strcmp(v[i], "info_camp"))                make_swch(fp, k, v, c);
     if (!strcmp(v[i], "info_null"))                make_bill(fp, k, v, c);
     if (!strcmp(v[i], "path_corner"))              make_path(fp, k, v, c);
