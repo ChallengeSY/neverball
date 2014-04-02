@@ -49,6 +49,7 @@ static struct game_draw gd;
 static struct game_lerp gl;
 
 static float timer  = 0.0f;             /* Clock time                        */
+static int   gained = 0;                /* Time increased mid-level          */
 static int   status = GAME_NONE;        /* Outcome of the game               */
 static int   coins  = 0;                /* Collected coins                   */
 
@@ -478,6 +479,11 @@ void game_client_draw(int pose, float t)
 int curr_clock(void)
 {
     return (int) (timer * 100.f);
+}
+
+int time_gained(void)
+{
+    return gained * 100;
 }
 
 int curr_coins(void)

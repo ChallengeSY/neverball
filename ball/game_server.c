@@ -40,6 +40,7 @@ static struct s_vary vary;
 
 static float timer      = 0.f;          /* Clock time                        */
 static int   timer_down = 1;            /* Timer go up or down?              */
+static int   gained     = 0;            /* Time increased mid-level          */
 
 static int status = GAME_NONE;          /* Outcome of the game               */
 
@@ -680,7 +681,7 @@ static void game_update_time(float dt, int b)
 static int game_update_state(int bt)
 {
     struct b_goal *zp;
-    int hi;
+    int hi, gainTick;
 
     float p[3];
 
@@ -701,8 +702,10 @@ static int game_update_state(int bt)
         }
         else if (hp->t == ITEM_CLOCK)
         {
-            timer += hp->n;
-            game_cmd_timer();
+            gainTick = hp->n;
+
+            game_update_time((float) -gainTick, bt);
+            gained += gainTick;
         }
 
         audio_play(AUD_COIN, 1.f);
