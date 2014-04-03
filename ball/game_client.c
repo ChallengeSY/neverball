@@ -481,9 +481,19 @@ int curr_clock(void)
     return (int) (timer * 100.f);
 }
 
-int time_gained(void)
+int curr_gained(void)
 {
     return gained * 100;
+}
+
+void incr_gained(int amt)
+{
+    gained += amt;
+}
+
+void clear_gain(void)
+{
+    gained = 0;
 }
 
 int curr_coins(void)

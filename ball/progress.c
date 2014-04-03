@@ -59,7 +59,6 @@ static int status = GAME_NONE;
 
 static int coins  = 0;
 static int timer  = 0;
-static int gained = 0; /* Increased time */
 
 static int goal   = 0; /* Current goal value. */
 static int goal_i = 0; /* Initial goal value. */
@@ -122,7 +121,7 @@ int  progress_play(struct level *l)
 
         next   = NULL;
         status = GAME_NONE;
-        gained = 0;
+        clear_gain();
         coins  = 0;
         timer  = 0;
         goal   = goal_i = level_goal(level);
@@ -168,8 +167,8 @@ void progress_stat(int s)
 
     coins = curr_coins();
     timer = (level_time(level) == 0 ?
-             curr_clock() - time_gained() :
-             level_time(level) + time_gained() - curr_clock());
+             curr_clock() - curr_gained() :
+             level_time(level) + curr_gained() - curr_clock());
 
     switch (status)
     {

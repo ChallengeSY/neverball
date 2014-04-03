@@ -40,7 +40,6 @@ static struct s_vary vary;
 
 static float timer      = 0.f;          /* Clock time                        */
 static int   timer_down = 1;            /* Timer go up or down?              */
-static int   gained     = 0;            /* Time increased mid-level          */
 
 static int status = GAME_NONE;          /* Outcome of the game               */
 
@@ -705,7 +704,7 @@ static int game_update_state(int bt)
             gainTick = hp->n;
 
             game_update_time((float) -gainTick, bt);
-            gained += gainTick;
+            incr_gained(gainTick);
         }
 
         audio_play(AUD_COIN, 1.f);
