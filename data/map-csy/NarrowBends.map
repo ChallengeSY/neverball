@@ -2,7 +2,7 @@
 // entity 0
 {
 "classname" "worldspawn"
-"message" "=Narrow Bends=\Surprisingly few coins to collect\doesn't necessarily make it easy"
+"message" "=Narrow Bends=\Use your ball control well"
 "back" "map-back/city.sol"
 "shot" "shot-csy/NarrowBends.png"
 "grad" "back/city.png"

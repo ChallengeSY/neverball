@@ -270,7 +270,7 @@
 // entity 45
 {
 "classname" "worldspawn"
-"message" "=Intermediate=\Not so hard, but not so easy."
+"message" "=Intermediate=\Not so hard, but not so easy"
 "time" "9000"
 "goal" "20"
 "shot" "shot-csy/Intermediate.png"
