@@ -57,8 +57,8 @@ static int times_rank = RANK_LAST;
 
 static int status = GAME_NONE;
 
-static int coins  = 0;
-static int timer  = 0;
+static int coins = 0;
+static int timer = 0;
 
 static int goal   = 0; /* Current goal value. */
 static int goal_i = 0; /* Initial goal value. */
@@ -167,7 +167,7 @@ void progress_stat(int s)
 
     coins = curr_coins();
     timer = (level_time(level) == 0 ?
-             curr_clock() - curr_gained() :
+             curr_clock() + curr_gained() :
              level_time(level) + curr_gained() - curr_clock());
 
     switch (status)
