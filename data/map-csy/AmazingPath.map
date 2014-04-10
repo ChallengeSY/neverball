@@ -12,7 +12,7 @@
 "author" "Challenge Space Yard"
 "version" "3"
 "levelname" "aMazing Path"
-"goal_hs" "9000 12000"
+"goal_hs" "3000 10500"
 "coin_hs" "20 28"
 "time_hs" "1000 6000"
 "bonus" "1"
