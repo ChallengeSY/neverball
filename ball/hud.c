@@ -205,12 +205,12 @@ void hud_update(int pulse)
             }
             else
             {
-                if (clock > last + 950)
+                if (clock > last + 2950)
+                    gui_pulse(time_id, 2.00);
+                else if (clock > last + 1450)
                     gui_pulse(time_id, 1.50);
                 else if (clock > last + 450)
                     gui_pulse(time_id, 1.25);
-                else if (clock > last + 50)
-                    gui_pulse(time_id, 1.10);
             }
         }
     }

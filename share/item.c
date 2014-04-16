@@ -31,9 +31,6 @@ void item_color(const struct v_item *hp, float *c)
 {
     switch (hp->t)
     {
-    case ITEM_CLOCK:
-        /* Fall through to coin */
-
     case ITEM_COIN:
 
         if (hp->n >= 1)
@@ -75,6 +72,31 @@ void item_color(const struct v_item *hp, float *c)
         c[2] = 0.00f;
         c[3] = 1.00f;
 
+        break;
+
+    case ITEM_CLOCK:
+
+        if (hp->n >= 5)
+        {
+            c[0] = 1.0f;
+            c[1] = 1.0f;
+            c[2] = 0.2f;
+            c[3] = 1.0f;
+        }
+        if (hp->n >= 15)
+        {
+            c[0] = 1.0f;
+            c[1] = 0.2f;
+            c[2] = 0.2f;
+            c[3] = 1.0f;
+        }
+        if (hp->n >= 30)
+        {
+            c[0] = 0.2f;
+            c[1] = 0.2f;
+            c[2] = 1.0f;
+            c[3] = 1.0f;
+        }
         break;
 
     default:

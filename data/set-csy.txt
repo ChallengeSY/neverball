@@ -13,7 +13,7 @@ map-csy/SymmetryChallenge.sol
 map-csy/SpiralIn.sol
 map-csy/InvisibleRoad.sol
 map-csy/Turbines.sol
-map-csy/InvisibleWalls.sol
+map-csy/CollectibleClock.sol
 map-csy/Intermediate.sol
 map-csy/Crosses.sol
 map-csy/SwitchReaction.sol

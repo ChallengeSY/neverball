@@ -1152,9 +1152,9 @@
 ( 512 448 104 ) ( 448 448 120 ) ( 512 448 120 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
 ( 448 64 112 ) ( 512 64 120 ) ( 448 -64 112 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
 ( 512 64 104 ) ( 448 64 112 ) ( 512 -64 104 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
-( 704 512 120 ) ( 704 448 104 ) ( 704 448 120 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
 ( 512 512 104 ) ( 448 448 104 ) ( 512 448 104 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
-( 448 512 120 ) ( 512 448 120 ) ( 448 448 120 ) mtrl/coin-red 0 0 0 0.5 0.5 0 0 0
+( 448 512 120 ) ( 512 448 120 ) ( 448 448 120 ) mtrl/turf-red 0 0 0 0.5 0.5 0 0 0
+( 576 512 -64 ) ( 576 480 -64 ) ( 576 512 64 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
 }
 // brush 128
 {
@@ -1285,7 +1285,7 @@
 // brush 142
 {
 ( -704 512 0 ) ( -704 448 0 ) ( -768 512 0 ) mtrl/coin-blue 0 0 0 0.5 0.5 0 0 0
-( -704 640 64 ) ( -768 640 64 ) ( -704 640 -16 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( -688 512 64 ) ( -752 512 64 ) ( -688 512 -16 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
 ( -704 512 64 ) ( -704 512 -16 ) ( -704 448 64 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
 ( -768 448 -16 ) ( -704 448 -16 ) ( -768 512 -16 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
 ( -768 448 -16 ) ( -768 448 64 ) ( -704 448 -16 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
@@ -1299,6 +1299,24 @@
 ( -896 304 -16 ) ( -840 304 -16 ) ( -896 512 -16 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
 ( -896 0 8 ) ( -896 0 -16 ) ( -896 512 -16 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
 ( -880 448 64 ) ( -848 448 -64 ) ( -880 448 -64 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+}
+// brush 144
+{
+( 448 512 120 ) ( 512 512 104 ) ( 512 512 120 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( 512 448 104 ) ( 448 448 120 ) ( 512 448 120 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( 512 512 104 ) ( 448 448 104 ) ( 512 448 104 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( 448 512 120 ) ( 512 448 120 ) ( 448 448 120 ) mtrl/coin-red 0 0 0 0.5 0.5 0 0 0
+( 576 512 64 ) ( 576 480 -64 ) ( 576 512 -64 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( 640 496 -64 ) ( 640 480 -64 ) ( 640 496 64 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+}
+// brush 145
+{
+( 448 512 120 ) ( 512 512 104 ) ( 512 512 120 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( 512 448 104 ) ( 448 448 120 ) ( 512 448 120 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( 704 512 120 ) ( 704 448 104 ) ( 704 448 120 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( 512 512 104 ) ( 448 448 104 ) ( 512 448 104 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( 448 512 120 ) ( 512 448 120 ) ( 448 448 120 ) mtrl/turf-red 0 0 0 0.5 0.5 0 0 0
+( 640 496 64 ) ( 640 480 -64 ) ( 640 496 -64 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
 }
 }
 // entity 1
@@ -1458,133 +1476,109 @@
 // entity 20
 {
 "classname" "item_clock"
-"origin" "672 480 136"
-"light" "10"
+"origin" "608 480 136"
+"light" "30"
 }
 // entity 21
-{
-"classname" "item_clock"
-"origin" "544 480 136"
-"light" "10"
-}
-// entity 22
-{
-"classname" "item_clock"
-"origin" "608 480 136"
-"light" "10"
-}
-// entity 23
 {
 "classname" "light"
 "origin" "544 -160 16"
 "light" "1"
 }
-// entity 24
+// entity 22
 {
 "classname" "light"
 "origin" "544 -32 16"
 "light" "1"
 }
-// entity 25
+// entity 23
 {
 "classname" "light"
 "origin" "544 -96 16"
 "light" "1"
 }
-// entity 26
+// entity 24
 {
 "classname" "light"
 "origin" "-480 224 16"
 "light" "1"
 }
-// entity 27
+// entity 25
 {
 "classname" "light"
 "origin" "-480 288 16"
 "light" "1"
 }
-// entity 28
+// entity 26
 {
 "classname" "light"
 "origin" "-288 480 16"
 "light" "1"
 }
-// entity 29
+// entity 27
 {
 "classname" "light"
 "origin" "-224 480 16"
 "light" "1"
 }
-// entity 30
+// entity 28
 {
 "classname" "light"
 "origin" "544 352 16"
 "light" "1"
 }
-// entity 31
+// entity 29
 {
 "classname" "light"
 "origin" "544 160 16"
 "light" "1"
 }
-// entity 32
+// entity 30
 {
 "classname" "light"
 "origin" "544 288 16"
 "light" "1"
 }
-// entity 33
+// entity 31
 {
 "classname" "info_camp"
 "origin" "672 480 0"
 "target" "door0"
 "radius" "0.25"
 }
-// entity 34
+// entity 32
 {
 "classname" "light"
 "origin" "896 480 16"
 "light" "1"
 }
-// entity 35
+// entity 33
 {
 "classname" "target_position"
 "origin" "-544 -32 32"
 "targetname" "camera"
 }
-// entity 36
+// entity 34
 {
 "classname" "info_player_intermission"
 "origin" "1472 448 256"
 "target" "camera"
 }
-// entity 37
+// entity 35
 {
 "classname" "light"
 "origin" "544 224 16"
 "light" "1"
 }
-// entity 38
+// entity 36
 {
 "classname" "info_player_deathmatch"
 "origin" "-1056 160 24"
 "radius" "0.375"
 }
-// entity 39
-{
-"classname" "item_clock"
-"origin" "-736 608 16"
-"light" "10"
-}
-// entity 40
+// entity 37
 {
 "classname" "item_clock"
 "origin" "-736 480 16"
-"light" "10"
-}
-// entity 41
-{
-"classname" "item_clock"
-"origin" "-736 544 16"
-"light" "10"
+"light" "30"
 }
