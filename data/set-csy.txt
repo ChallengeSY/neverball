@@ -2,7 +2,7 @@ Clockwork Alpha
 Difficulty: Beginner through Expert\25 levels providing a balanced challenge\\\Author: Challenge Space Yard\
 csy
 shot-csy/Cross.png
-79000	87000	114000	975	600	302
+79000	87000	114000	950	600	300
 map-csy/Cross.sol
 map-csy/Pinwheel.sol
 map-csy/GiantNeverball.sol
