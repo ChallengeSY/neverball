@@ -935,6 +935,8 @@
 "origin" "-320 192 0"
 "model" "obj/pin.obj"
 "target" "bump0"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 34
 {
@@ -964,6 +966,8 @@
 "origin" "-64 192 0"
 "model" "obj/pin.obj"
 "target" "bump1"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 36
 {
@@ -993,6 +997,8 @@
 "origin" "192 192 0"
 "model" "obj/pin.obj"
 "target" "bump2"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 38
 {
@@ -1022,6 +1028,8 @@
 "origin" "192 -64 0"
 "model" "obj/pin.obj"
 "target" "bump3"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 40
 {
@@ -1051,6 +1059,8 @@
 "origin" "192 -320 0"
 "model" "obj/pin.obj"
 "target" "bump4"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 42
 {
@@ -1080,6 +1090,8 @@
 "origin" "-64 -320 0"
 "model" "obj/pin.obj"
 "target" "bump5"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 44
 {
@@ -1109,6 +1121,8 @@
 "origin" "-320 -320 0"
 "model" "obj/pin.obj"
 "target" "bump6"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 46
 {
@@ -1138,4 +1152,6 @@
 "origin" "-320 -64 0"
 "model" "obj/pin.obj"
 "target" "bump7"
+"angles" "0 0 90"
+"modelscale" "64"
 }

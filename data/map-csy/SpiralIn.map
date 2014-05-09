@@ -1245,202 +1245,270 @@
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "576 -448 0"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 28
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "608 -320 0"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 29
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "544 -192 0"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 30
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "544 384 0"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 31
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "608 384 0"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 32
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "384 544 0"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 33
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "384 608 0"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 34
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "256 576 0"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 35
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "-384 576 0"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 36
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "-256 608 0"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 37
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "-256 544 0"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 38
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "-608 384 0"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 39
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "-576 256 0"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 40
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "-544 128 0"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 41
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "-544 -384 0"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 42
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "-576 -256 0"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 43
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "-608 -128 0"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 44
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "320 -512 0"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 45
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "256 -576 0"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 46
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "-128 -544 0"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 47
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "-128 -608 0"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 48
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "0 64 0"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 49
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "32 -128 0"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 50
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "96 -128 0"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 51
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "-320 -128 0"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 52
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "-320 128 0"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 53
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "-352 0 0"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 54
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "-288 0 0"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 55
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "-64 320 0"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 56
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "64 320 0"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 57
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "272 368 0"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 58
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "368 272 0"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 59
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "304 -128 0"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 60
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "336 -128 0"
+"angles" "0 0 90"
+"modelscale" "64"
 }

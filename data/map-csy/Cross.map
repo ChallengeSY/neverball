@@ -1440,136 +1440,182 @@
 "classname" "misc_model"
 "origin" "-4 -388 0"
 "model" "obj/post.obj"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 26
 {
 "classname" "misc_model"
 "origin" "-4 -516 0"
 "model" "obj/post.obj"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 27
 {
 "classname" "misc_model"
 "origin" "132 -516 0"
 "model" "obj/post.obj"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 28
 {
 "classname" "misc_model"
 "origin" "132 -388 0"
 "model" "obj/post.obj"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 29
 {
 "classname" "misc_model"
 "origin" "388 -388 0"
 "model" "obj/post.obj"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 30
 {
 "classname" "misc_model"
 "origin" "252 -252 0"
 "model" "obj/post.obj"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 31
 {
 "classname" "misc_model"
 "origin" "132 -252 0"
 "model" "obj/post.obj"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 32
 {
 "classname" "misc_model"
 "origin" "132 4 0"
 "model" "obj/post.obj"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 33
 {
 "classname" "misc_model"
 "origin" "-260 4 0"
 "model" "obj/post.obj"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 34
 {
 "classname" "misc_model"
 "origin" "-260 -388 0"
 "model" "obj/post.obj"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 35
 {
 "classname" "misc_model"
 "origin" "388 4 0"
 "model" "obj/post.obj"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 36
 {
 "classname" "misc_model"
 "origin" "252 4 0"
 "model" "obj/post.obj"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 37
 {
 "classname" "misc_model"
 "origin" "-64 4 0"
 "model" "obj/xrail6.obj"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 38
 {
 "classname" "misc_model"
 "origin" "388 -192 0"
 "model" "obj/zrail6.obj"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 39
 {
 "classname" "misc_model"
 "origin" "-260 -192 0"
 "model" "obj/zrail6.obj"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 40
 {
 "classname" "misc_model"
 "origin" "252 -128 0"
 "model" "obj/zrail4.obj"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 41
 {
 "classname" "misc_model"
 "origin" "132 -128 0"
 "model" "obj/zrail4.obj"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 42
 {
 "classname" "misc_model"
 "origin" "-128 -388 0"
 "model" "obj/xrail4.obj"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 43
 {
 "classname" "misc_model"
 "origin" "256 -388 0"
 "model" "obj/xrail4.obj"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 44
 {
 "classname" "misc_model"
 "origin" "132 -448 0"
 "model" "obj/zrail2.obj"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 45
 {
 "classname" "misc_model"
 "origin" "-4 -448 0"
 "model" "obj/zrail2.obj"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 46
 {
 "classname" "misc_model"
 "origin" "192 -252 0"
 "model" "obj/xrail2.obj"
+"angles" "0 0 90"
+"modelscale" "64"
 }
 // entity 47
 {
 "classname" "misc_model"
 "origin" "64 -516 0"
 "model" "obj/xrail2.obj"
+"angles" "0 0 90"
+"modelscale" "64"
 }

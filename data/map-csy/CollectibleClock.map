@@ -828,24 +828,32 @@
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "320 320 0"
+"modelscale" "64"
+"angles" "0 0 90"
 }
 // entity 41
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "-64 -320 0"
+"modelscale" "64"
+"angles" "0 0 90"
 }
 // entity 42
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "0 0 0"
+"modelscale" "64"
+"angles" "0 0 90"
 }
 // entity 43
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "-320 -64 0"
+"modelscale" "64"
+"angles" "0 0 90"
 }
 // entity 44
 {
@@ -864,16 +872,22 @@
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "-568 -352 0"
+"modelscale" "64"
+"angles" "0 0 90"
 }
 // entity 47
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "-584 -192 0"
+"modelscale" "64"
+"angles" "0 0 90"
 }
 // entity 48
 {
 "classname" "misc_model"
 "model" "obj/peg.obj"
 "origin" "-568 -32 0"
+"modelscale" "64"
+"angles" "0 0 90"
 }

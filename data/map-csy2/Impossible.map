@@ -1,0 +1,123 @@
+
+// entity 0
+{
+"classname" "worldspawn"
+"message" "=Impossibility=\This level is impossible!\Make no attempt to solve it"
+"back" "map-back/jupiter.sol"
+"grad" "back/space.png"
+"song" "bgm/track4.ogg"
+"shot" "shot-csy2/Impossible.png"
+"time" "1500"
+// brush 0
+{
+( -144 4 1 ) ( -144 -124 1 ) ( -272 4 1 ) mtrl/arrow-green-light 0 0 0 0.5 0.5 0 0 0
+( -128 0 64 ) ( -256 0 64 ) ( -128 0 -64 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( -128 0 64 ) ( -128 0 -64 ) ( -128 -128 64 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( -256 -128 -16 ) ( -128 -128 -16 ) ( -256 0 -16 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( -256 -128 -64 ) ( -256 -128 64 ) ( -128 -128 -64 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( -256 -128 -64 ) ( -256 0 -64 ) ( -256 -128 64 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+}
+// brush 1
+{
+( -144 128 0 ) ( -144 0 0 ) ( -272 128 0 ) mtrl/coin-green-check2 0 0 0 0.25 0.25 0 0 0
+( -128 128 64 ) ( -256 128 64 ) ( -128 128 -64 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( -256 0 -16 ) ( -128 0 -16 ) ( -256 128 -16 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( -256 0 -64 ) ( -256 0 64 ) ( -128 0 -64 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( -256 0 -64 ) ( -256 128 -64 ) ( -256 0 64 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( -192 96 -64 ) ( -192 48 -64 ) ( -192 96 64 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+}
+// brush 2
+{
+( -144 0 0 ) ( -144 -128 0 ) ( -272 0 0 ) mtrl/turf-green-dark 0 0 0 0.5 0.5 0 0 0
+( -128 0 64 ) ( -256 0 64 ) ( -128 0 -64 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( -256 -128 -16 ) ( -128 -128 -16 ) ( -256 0 -16 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( -256 -128 -64 ) ( -256 0 -64 ) ( -256 -128 64 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( -192 0 -64 ) ( -256 -128 -64 ) ( -192 0 64 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+}
+// brush 3
+{
+( -144 128 0 ) ( -144 0 0 ) ( -272 128 0 ) mtrl/turf-green-check2 0 0 0 0.25 0.25 0 0 0
+( -128 128 64 ) ( -256 128 64 ) ( -128 128 -64 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( -128 128 64 ) ( -128 128 -64 ) ( -128 0 64 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( -256 0 -16 ) ( -128 0 -16 ) ( -256 128 -16 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( -256 0 -64 ) ( -256 0 64 ) ( -128 0 -64 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( -192 96 64 ) ( -192 48 -64 ) ( -192 96 -64 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+}
+// brush 4
+{
+( -144 0 0 ) ( -144 -128 0 ) ( -272 0 0 ) mtrl/turf-green-dark 0 0 0 0.5 0.5 0 0 0
+( -256 -128 -16 ) ( -128 -128 -16 ) ( -256 0 -16 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( -256 -128 -64 ) ( -256 -128 64 ) ( -128 -128 -64 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( -192 0 64 ) ( -256 -128 -64 ) ( -192 0 -64 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( -192 0 -64 ) ( -128 -128 -64 ) ( -192 0 64 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+}
+// brush 5
+{
+( -144 0 0 ) ( -144 -128 0 ) ( -272 0 0 ) mtrl/turf-green-dark 0 0 0 0.5 0.5 0 0 0
+( -128 0 64 ) ( -256 0 64 ) ( -128 0 -64 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( -128 0 64 ) ( -128 0 -64 ) ( -128 -128 64 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( -256 -128 -16 ) ( -128 -128 -16 ) ( -256 0 -16 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( -192 0 64 ) ( -128 -128 -64 ) ( -192 0 -64 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+}
+}
+// entity 1
+{
+"classname" "item_clock"
+"origin" "-240 112 16"
+"light" "30"
+}
+// entity 2
+{
+"classname" "item_clock"
+"origin" "-240 16 16"
+"light" "30"
+}
+// entity 3
+{
+"classname" "item_clock"
+"origin" "-208 16 16"
+"light" "30"
+}
+// entity 4
+{
+"classname" "item_clock"
+"origin" "-208 48 16"
+"light" "30"
+}
+// entity 5
+{
+"classname" "item_clock"
+"origin" "-240 48 16"
+"light" "30"
+}
+// entity 6
+{
+"classname" "item_clock"
+"origin" "-240 80 16"
+"light" "30"
+}
+// entity 7
+{
+"classname" "item_clock"
+"origin" "-208 80 16"
+"light" "30"
+}
+// entity 8
+{
+"classname" "item_clock"
+"origin" "-208 112 16"
+"light" "30"
+}
+// entity 9
+{
+"classname" "func_train"
+// brush 0
+{
+( -192 128 64 ) ( -192 0 64 ) ( -256 128 64 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -192 128 16 ) ( -256 128 16 ) ( -192 128 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -192 128 16 ) ( -192 128 0 ) ( -192 0 16 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -256 0 0 ) ( -192 0 0 ) ( -256 128 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -256 0 0 ) ( -256 0 16 ) ( -192 0 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -256 0 0 ) ( -256 128 0 ) ( -256 0 16 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+}
+}

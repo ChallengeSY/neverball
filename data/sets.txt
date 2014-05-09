@@ -6,4 +6,5 @@ set-mym2.txt
 set-fwp.txt
 set-tones.txt
 set-csy.txt
+set-csy2.txt
 set-misc.txt
