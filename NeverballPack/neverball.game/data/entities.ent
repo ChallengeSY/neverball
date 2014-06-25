@@ -64,6 +64,21 @@ Defines a shrink coin.
 </point>
 
 
+<list name="clock">
+  <item name="None" value="0"/>
+  <item name="Yellow" value="5"/>
+  <item name="Red" value="15"/>
+  <item name="Blue" value="30"/>
+</list>
+
+<point name="item_clock" color="0.5 0.25 1" box="-16 -16 -16 16 16 16">
+Defines a clock, adding time to a level.
+
+Attributes:
+* <clock key="light" name="Value" value="1">Value of the clock.  Yellow clock = +5 seconds, red coin = +15 seconds, blue coin = +30 seconds.</clock>
+</point>
+
+
 <list name="coin">
   <item name="Yellow" value="1"/>
   <item name="Red" value="5"/>

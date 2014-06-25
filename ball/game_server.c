@@ -678,7 +678,7 @@ static void game_update_time(float dt, int b)
 static int game_update_state(int bt)
 {
     struct b_goal *zp;
-    int hi;
+    int hi, gainTick;
 
     float p[3];
 
@@ -696,6 +696,13 @@ static int game_update_state(int bt)
         {
             coins += hp->n;
             game_cmd_coins();
+        }
+        else if (hp->t == ITEM_CLOCK)
+        {
+            gainTick = hp->n;
+
+            game_update_time((float) -gainTick, bt);
+            incr_gained(gainTick);
         }
 
         audio_play(AUD_COIN, 1.f);
