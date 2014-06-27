@@ -12,7 +12,7 @@
 "author" "Challenge Space Yard"
 "levelname" "Warp Zone II"
 "version" "2"
-"coin_hs" "10"
+"coin_hs" "9"
 "time_hs" "4500 5500 6500"
 "goal_hs" "4500 5500 6500"
 // brush 0
@@ -530,13 +530,13 @@
 // entity 6
 {
 "classname" "target_position"
-"origin" "-256 0 24"
+"origin" "-384 1280 24"
 "targetname" "intermission"
 }
 // entity 7
 {
 "classname" "info_player_intermission"
-"origin" "-256 -256 72"
+"origin" "0 -1536 136"
 "target" "intermission"
 }
 // entity 8

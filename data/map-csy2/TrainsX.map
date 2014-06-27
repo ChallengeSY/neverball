@@ -1832,12 +1832,12 @@
 // entity 40
 {
 "classname" "info_player_intermission"
-"origin" "576 -576 192"
+"origin" "768 -832 192"
 "target" "camera"
 }
 // entity 41
 {
 "classname" "target_position"
-"origin" "-320 1152 64"
+"origin" "-128 800 64"
 "targetname" "camera"
 }

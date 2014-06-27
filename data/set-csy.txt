@@ -1,5 +1,5 @@
 Clockwork Alpha
-Difficulty: Beginner through Expert\25 levels providing a balanced challenge\\\Author: Challenge Space Yard\
+Difficulty: Beginner through Expert\\25 levels providing a balanced challenge\Author: Challenge Space Yard\\
 csy
 shot-csy/Cross.png
 90000	120000	150000	950	600	300

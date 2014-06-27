@@ -4711,12 +4711,12 @@
 // entity 36
 {
 "classname" "info_player_intermission"
-"origin" "-960 -1408 320"
+"origin" "-1008 -1360 320"
 "target" "cam"
 }
 // entity 37
 {
 "classname" "target_position"
-"origin" "0 -512 160"
+"origin" "-48 -464 160"
 "targetname" "cam"
 }

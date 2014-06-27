@@ -777,13 +777,13 @@
 // entity 32
 {
 "classname" "info_player_intermission"
-"origin" "-64 -384 192"
+"origin" "-64 -512 192"
 "target" "intermission"
 }
 // entity 33
 {
 "classname" "target_position"
-"origin" "-64 1216 64"
+"origin" "-64 960 64"
 "targetname" "intermission"
 }
 // entity 34
