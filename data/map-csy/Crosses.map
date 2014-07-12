@@ -1603,7 +1603,7 @@
 // entity 13
 {
 "classname" "info_player_intermission"
-"origin" "-528 336 224"
+"origin" "-640 384 224"
 "target" "intermission"
 }
 // entity 14
@@ -1705,7 +1705,7 @@
 // entity 30
 {
 "classname" "target_position"
-"origin" "608 -224 96"
+"origin" "224 -32 96"
 "targetname" "intermission"
 }
 // entity 31

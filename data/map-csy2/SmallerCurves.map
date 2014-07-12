@@ -8922,7 +8922,7 @@
 // entity 12
 {
 "classname" "light"
-"origin" "704 -32 16"
+"origin" "736 -32 16"
 "light" "1"
 }
 // entity 13

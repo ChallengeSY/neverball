@@ -10,7 +10,7 @@
 "time" "6000"
 "goal" "40"
 "author" "Challenge Space Yard"
-"version" "2"
+"version" "3"
 "levelname" "Speed Jumps"
 "time_hs" "1200 2500"
 "goal_hs" "1200 2500"
@@ -80,12 +80,12 @@
 }
 // brush 7
 {
-( 0 2224 48 ) ( 0 1952 48 ) ( -64 2224 48 ) mtrl/coin-blue 0 64 0 0.5 0.5 0 0 0
-( 16 2400 48 ) ( -48 2400 48 ) ( 16 2400 32 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
-( 0 2224 48 ) ( 0 2224 32 ) ( 0 1952 48 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
-( -64 1952 32 ) ( 0 1952 32 ) ( -64 2224 32 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
-( -64 2016 32 ) ( -64 2016 48 ) ( 0 2016 32 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
-( -64 1952 32 ) ( -64 2224 32 ) ( -64 1952 48 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( 0 2224 64 ) ( 0 1952 64 ) ( -64 2224 64 ) mtrl/coin-blue 0 64 0 0.5 0.5 0 0 0
+( 16 2400 64 ) ( -48 2400 64 ) ( 16 2400 48 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( 0 2224 64 ) ( 0 2224 48 ) ( 0 1952 64 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( -64 1952 48 ) ( 0 1952 48 ) ( -64 2224 48 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( -64 2016 48 ) ( -64 2016 64 ) ( 0 2016 48 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( -64 1952 48 ) ( -64 2224 48 ) ( -64 1952 64 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
 }
 // brush 8
 {
@@ -471,37 +471,37 @@
 // entity 35
 {
 "classname" "light"
-"origin" "-32 2112 64"
+"origin" "-32 2112 80"
 "light" "10"
 }
 // entity 36
 {
 "classname" "light"
-"origin" "-32 2240 64"
+"origin" "-32 2240 80"
 "light" "10"
 }
 // entity 37
 {
 "classname" "light"
-"origin" "-32 2048 64"
+"origin" "-32 2048 80"
 "light" "5"
 }
 // entity 38
 {
 "classname" "light"
-"origin" "-32 2176 64"
+"origin" "-32 2176 80"
 "light" "5"
 }
 // entity 39
 {
 "classname" "light"
-"origin" "-32 2304 64"
+"origin" "-32 2304 80"
 "light" "5"
 }
 // entity 40
 {
 "classname" "light"
-"origin" "-32 2368 64"
+"origin" "-32 2368 80"
 "light" "5"
 }
 // entity 41
@@ -735,13 +735,13 @@
 // entity 79
 {
 "classname" "info_player_intermission"
-"origin" "-32 -768 96"
+"origin" "-80 -784 96"
 "target" "intermission"
 }
 // entity 80
 {
 "classname" "target_position"
-"origin" "-32 -384 64"
+"origin" "-32 -400 64"
 "targetname" "intermission"
 }
 // entity 81

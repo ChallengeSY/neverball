@@ -559,13 +559,13 @@
 // entity 28
 {
 "classname" "info_player_intermission"
-"origin" "336 -192 240"
+"origin" "416 -256 240"
 "target" "intermission"
 }
 // entity 29
 {
 "classname" "target_position"
-"origin" "-320 400 16"
+"origin" "-240 336 16"
 "targetname" "intermission"
 }
 // entity 30
