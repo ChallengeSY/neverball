@@ -4,7 +4,7 @@
 "classname" "worldspawn"
 "message" "=Telepuzzle=\Beware of deceptive teleport pads"
 "back" "map-back/clouds.sol"
-"shot" "shot-csy/Telepuzzle.png"
+"shot" "shot-csy/TelePuzzle.png"
 "grad" "back/land.png"
 "time" "18000"
 "goal" "44"

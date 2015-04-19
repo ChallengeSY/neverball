@@ -2,7 +2,7 @@
 // entity 0
 {
 "classname" "worldspawn"
-"message" "=Curve World=\The curves are easy, but\the ball must shrink"
+"message" "=Curve World=\The curves are easy, but one\may need to shrink the ball"
 "song" "bgm/track1.ogg"
 "shot" "shot-csy2/CurveWorld.png"
 "back" "map-back/clouds.sol"
@@ -11,7 +11,7 @@
 "goal" "16"
 "author" "Challenge Space Yard"
 "levelname" "Curve World"
-"version" "3"
+"version" "4"
 "goal_hs" "1600 4000"
 "coin_hs" "36 24"
 "time_hs" "1500 3500"
@@ -5931,7 +5931,8 @@
 "classname" "path_corner"
 "origin" "608 32 0"
 "targetname" "move1"
-"state" "0"
+"speed" "2"
+"target" "move2"
 }
 // entity 3
 {
@@ -5939,17 +5940,9 @@
 "origin" "608 -96 0"
 "targetname" "move0"
 "target" "move1"
-"speed" "5"
-"state" "0"
+"speed" "3"
 }
 // entity 4
-{
-"classname" "info_camp"
-"origin" "544 -96 0"
-"radius" "0.25"
-"target" "move0"
-}
-// entity 5
 {
 "classname" "func_train"
 "target" "move0"
@@ -5962,251 +5955,258 @@
 ( 512 -128 -16 ) ( 512 -128 0 ) ( 576 -128 -16 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
 ( 512 -128 -16 ) ( 512 -64 -16 ) ( 512 -128 0 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
 }
-// brush 1
-{
-( 576 -64 1 ) ( 576 -128 1 ) ( 512 -64 1 ) mtrl/switch 0 0 0 -0.25 0.25 134217728 0 0
-( 576 -64 8 ) ( 512 -64 8 ) ( 576 -64 -8 ) mtrl/invisible 0 0 0 -0.25 0.00390625 134217728 0 0
-( 576 -64 8 ) ( 576 -64 -8 ) ( 576 -128 8 ) mtrl/invisible 0 0 0 -0.25 0.00390625 134217728 0 0
-( 512 -128 0 ) ( 576 -128 0 ) ( 512 -64 0 ) mtrl/invisible 0 0 0 -0.25 0.25 134217728 0 0
-( 512 -128 -8 ) ( 512 -128 8 ) ( 576 -128 -8 ) mtrl/invisible 0 0 0 -0.25 0.00390625 134217728 0 0
-( 512 -128 -8 ) ( 512 -64 -8 ) ( 512 -128 8 ) mtrl/invisible 0 0 0 -0.25 0.00390625 134217728 0 0
 }
-}
-// entity 6
+// entity 5
 {
 "classname" "info_player_deathmatch"
 "origin" "897 1 24"
 }
-// entity 7
+// entity 6
 {
 "classname" "light"
 "origin" "-160 32 16"
 "light" "1"
 }
-// entity 8
+// entity 7
 {
 "classname" "light"
 "origin" "32 160 16"
 "light" "1"
 }
-// entity 9
+// entity 8
 {
 "classname" "light"
 "origin" "-160 96 16"
 "light" "1"
 }
-// entity 10
+// entity 9
 {
 "classname" "light"
 "origin" "-96 160 16"
 "light" "1"
 }
-// entity 11
+// entity 10
 {
 "classname" "light"
 "origin" "-160 160 16"
 "light" "1"
 }
-// entity 12
+// entity 11
 {
 "classname" "light"
 "origin" "-32 224 16"
 "light" "1"
 }
-// entity 13
+// entity 12
 {
 "classname" "light"
 "origin" "-32 160 16"
 "light" "1"
 }
-// entity 14
+// entity 13
 {
 "classname" "light"
 "origin" "32 224 16"
 "light" "1"
 }
-// entity 15
+// entity 14
 {
 "classname" "light"
 "origin" "160 160 16"
 "light" "1"
 }
-// entity 16
+// entity 15
 {
 "classname" "light"
 "origin" "96 160 16"
 "light" "1"
 }
-// entity 17
+// entity 16
 {
 "classname" "light"
 "origin" "160 96 16"
 "light" "1"
 }
-// entity 18
+// entity 17
 {
 "classname" "light"
 "origin" "160 32 16"
 "light" "1"
 }
-// entity 19
+// entity 18
 {
 "classname" "light"
 "origin" "864 160 16"
 "light" "1"
 }
-// entity 20
+// entity 19
 {
 "classname" "info_player_intermission"
 "origin" "-704 -64 128"
 "target" "intermission"
 }
-// entity 21
+// entity 20
 {
 "classname" "target_position"
 "origin" "1024 -32 48"
 "targetname" "intermission"
 }
-// entity 22
+// entity 21
 {
 "classname" "item_health_small"
 "origin" "192 -64 16"
 }
-// entity 23
+// entity 22
 {
 "classname" "light"
 "origin" "48 -64 16"
 "light" "1"
 }
-// entity 24
+// entity 23
 {
 "classname" "light"
 "origin" "16 -64 16"
 "light" "1"
 }
-// entity 25
+// entity 24
 {
 "classname" "light"
 "origin" "80 -64 16"
 "light" "1"
 }
-// entity 26
+// entity 25
 {
 "classname" "light"
 "origin" "112 -64 16"
 "light" "1"
 }
-// entity 27
+// entity 26
 {
 "classname" "light"
 "origin" "-16 -64 16"
 "light" "1"
 }
-// entity 28
+// entity 27
 {
 "classname" "light"
 "origin" "-80 -64 16"
 "light" "1"
 }
-// entity 29
+// entity 28
 {
 "classname" "light"
 "origin" "-112 -64 16"
 "light" "1"
 }
-// entity 30
+// entity 29
 {
 "classname" "light"
 "origin" "-48 -64 16"
 "light" "1"
 }
-// entity 31
+// entity 30
 {
 "classname" "light"
 "origin" "800 224 16"
 "light" "1"
 }
-// entity 32
+// entity 31
 {
 "classname" "light"
 "origin" "864 224 16"
 "light" "1"
 }
-// entity 33
+// entity 32
 {
 "classname" "light"
 "origin" "736 224 16"
 "light" "1"
 }
-// entity 34
+// entity 33
 {
 "classname" "light"
 "origin" "224 -224 16"
 "light" "1"
 }
-// entity 35
+// entity 34
 {
 "classname" "light"
 "origin" "608 224 16"
 "light" "1"
 }
-// entity 36
+// entity 35
 {
 "classname" "light"
 "origin" "672 224 16"
 "light" "1"
 }
-// entity 37
+// entity 36
 {
 "classname" "light"
 "origin" "224 -160 16"
 "light" "1"
 }
-// entity 38
+// entity 37
 {
 "classname" "light"
 "origin" "544 160 16"
 "light" "1"
 }
-// entity 39
+// entity 38
 {
 "classname" "light"
 "origin" "864 96 16"
 "light" "1"
 }
-// entity 40
+// entity 39
 {
 "classname" "light"
 "origin" "288 -288 16"
 "light" "1"
 }
-// entity 41
+// entity 40
 {
 "classname" "light"
 "origin" "224 -288 16"
 "light" "1"
 }
-// entity 42
+// entity 41
 {
 "classname" "light"
 "origin" "352 -288 16"
 "light" "1"
 }
-// entity 43
+// entity 42
 {
 "classname" "light"
 "origin" "480 -288 16"
 "light" "1"
 }
-// entity 44
+// entity 43
 {
 "classname" "light"
 "origin" "416 -288 16"
 "light" "1"
 }
-// entity 45
+// entity 44
 {
 "classname" "light"
 "origin" "544 -224 16"
 "light" "1"
+}
+// entity 45
+{
+"classname" "path_corner"
+"origin" "608 32 0"
+"targetname" "move2"
+"speed" "3"
+"target" "move3"
+}
+// entity 46
+{
+"classname" "path_corner"
+"origin" "608 -96 0"
+"targetname" "move3"
+"speed" "2"
+"target" "move0"
 }
