@@ -1,5 +1,5 @@
 Clockwork Alpha
-Difficulty: Beginner through Expert\\25 levels providing a balanced challenge\Author: Challenge Space Yard\\
+Difficulty: Beginner through Expert\\Exploration themed levels\providing a balanced challenge\Author: Challenge Space Yard\
 csy
 shot-csy/Cross.png
 90000	120000	150000	950	600	300
@@ -20,10 +20,9 @@ map-csy/SwitchReaction.sol
 map-csy/NarrowBends.sol
 map-csy/JumpMastery.sol
 map-csy/GlassyIntersection.sol
-map-csy/SpeedJumps.sol
+map-csy/DaisyChain.sol
 map-csy/TimePressure.sol
 map-csy/HyperSpeed.sol
-map-csy/RocketRide.sol
 map-csy/BentRoad.sol
 map-csy/ForkedRoad.sol
 map-csy/ClockPuz.sol
