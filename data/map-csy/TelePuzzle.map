@@ -2,7 +2,7 @@
 // entity 0
 {
 "classname" "worldspawn"
-"message" "=Telepuzzle=\Beware of deceptive teleport pads"
+"message" "=Telepuzzle=\Beware of deceptive teleporters"
 "back" "map-back/clouds.sol"
 "shot" "shot-csy/TelePuzzle.png"
 "grad" "back/land.png"

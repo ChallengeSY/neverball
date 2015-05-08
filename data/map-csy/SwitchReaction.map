@@ -2,7 +2,7 @@
 // entity 0
 {
 "classname" "worldspawn"
-"message" "=Switch Reaction=\Deactivating a switch only temporarily\disables the bumpers' movement.\\Combining two or more\switches will have no effect"
+"message" "=Switch Reaction=\Deactivating a switch only temporarily\disables the bumpers' movement\\Combining two or more switches will\have a harmful effect to the timing"
 "back" "map-back/city.sol"
 "grad" "back/city.png"
 "song" "bgm/track3.ogg"

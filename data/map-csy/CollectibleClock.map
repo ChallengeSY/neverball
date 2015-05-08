@@ -2,7 +2,7 @@
 // entity 0
 {
 "classname" "worldspawn"
-"message" "=Collectible Clocks=\Collect clock items to extend time\as shown on the item"
+"message" "=Collectible Clocks=\Collect clock items to\extend time as shown"
 "grad" "back/city.png"
 "back" "map-back/city.sol"
 "time" "6000"

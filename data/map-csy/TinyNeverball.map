@@ -2,7 +2,7 @@
 // entity 0
 {
 "classname" "worldspawn"
-"message" "=Tiny Neverball=\Collect the shrink coin\to access narrow tunnels"
+"message" "=Tiny Neverball=\Collect the shrink item\to access narrow tunnels"
 "back" "map-back/clouds.sol"
 "grad" "back/land.png"
 "time" "9000"

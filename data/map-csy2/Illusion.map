@@ -1014,25 +1014,25 @@
 {
 "classname" "item_clock"
 "origin" "-352 2720 16"
-"light" "-15"
+"light" "5"
 }
 // entity 54
 {
 "classname" "item_clock"
 "origin" "-352 2784 16"
-"light" "-15"
+"light" "5"
 }
 // entity 55
 {
 "classname" "item_clock"
 "origin" "-288 2784 16"
-"light" "-15"
+"light" "5"
 }
 // entity 56
 {
 "classname" "item_clock"
 "origin" "-288 2720 16"
-"light" "-15"
+"light" "5"
 }
 // entity 57
 {
