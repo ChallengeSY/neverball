@@ -10,7 +10,7 @@
 "bonus" "1"
 "author" "Challenge Space Yard"
 "message" "=Turbines=\Have fun collecting coins under pressure!"
-"coin_hs" "60 25"
+"coin_hs" "68 30"
 "goal" "10"
 "time" "10500"
 "time_hs" "1000 2500"
