@@ -17,7 +17,6 @@ map-csy2/RocketRide.sol
 map-csy2/CrazyHills.sol
 map-csy2/WarpZone1.sol
 map-csy2/Pinball.sol
-map-csy2/RetroPortTown.sol
 map-csy2/DDN.sol
 map-csy2/Twister.sol
 map-csy2/Impossible.sol
