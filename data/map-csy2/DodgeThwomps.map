@@ -2,7 +2,7 @@
 // entity 0
 {
 "classname" "worldspawn"
-"message" "=Dodge the Thwomps=\How well will you stand up to these thwomps?"
+"message" "=Dodge the Thwomps=\Try not to get bullied!"
 "time" "12000"
 "goal" "10"
 "shot" "shot-csy2/DodgeThwomps.png"
