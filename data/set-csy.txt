@@ -24,6 +24,7 @@ map-csy/DaisyChain.sol
 map-csy/TimePressure.sol
 map-csy/HyperSpeed.sol
 map-csy/BentRoad.sol
+map-csy/WebTree.sol
 map-csy/ForkedRoad.sol
 map-csy/ClockPuz.sol
 map-csy/AmazingPath.sol
