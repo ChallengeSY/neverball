@@ -555,7 +555,7 @@
 // entity 3
 {
 "classname" "info_player_intermission"
-"origin" "-128 832 272"
+"origin" "-640 -480 288"
 "target" "intermission"
 }
 // entity 4
@@ -704,7 +704,7 @@
 {
 "classname" "target_position"
 "radius" "0.375"
-"origin" "-320 -192 24"
+"origin" "-544 -384 224"
 "targetname" "intermission"
 }
 // entity 29
