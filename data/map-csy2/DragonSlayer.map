@@ -19087,13 +19087,13 @@
 // entity 12
 {
 "classname" "target_position"
-"origin" "384 832 512"
+"origin" "448 768 512"
 "targetname" "intermission1"
 }
 // entity 13
 {
 "classname" "info_player_intermission"
-"origin" "448 896 544"
+"origin" "512 832 544"
 "target" "intermission1"
 }
 // entity 14
