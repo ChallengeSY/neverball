@@ -7,7 +7,7 @@
 // entity 1
 {
 "classname" "info_player_intermission"
-"origin" "1152 -416 304"
+"origin" "1152 -384 304"
 "target" "goal"
 }
 // entity 2
@@ -240,7 +240,7 @@
 // entity 40
 {
 "classname" "target_position"
-"origin" "-576 256 128"
+"origin" "1024 -320 272"
 "targetname" "goal"
 }
 // entity 41
