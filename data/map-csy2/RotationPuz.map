@@ -4,7 +4,7 @@
 "classname" "worldspawn"
 "message" "=Rotation Puzzle=\Rotate the pieces to make progress"
 "bonus" "1"
-"shot" "shot-csy/RotationPuz.png"
+"shot" "shot-csy2/RotationPuz.png"
 "version" "1"
 "author" "Challenge Space Yard"
 "back" "map-back/city.sol"
