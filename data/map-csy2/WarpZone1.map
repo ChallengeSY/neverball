@@ -11,7 +11,7 @@
 "goal" "0"
 "author" "Challenge Space Yard"
 "levelname" "Warp Zone I"
-"version" "1"
+"version" "1.1"
 "time_hs" "3000"
 "goal_hs" "3000"
 "coin_hs" "30 15"
@@ -1832,4 +1832,1396 @@
 "classname" "light"
 "origin" "-448 3680 16"
 "light" "10"
+}
+// entity 13
+{
+"classname" "info_null"
+"origin" "-32 5280 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 14
+{
+"classname" "info_null"
+"origin" "-480 5280 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 15
+{
+"classname" "info_null"
+"origin" "-32 5344 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 16
+{
+"classname" "info_null"
+"origin" "-480 5344 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 17
+{
+"classname" "info_null"
+"origin" "-32 -160 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 18
+{
+"classname" "info_null"
+"origin" "-480 -160 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 19
+{
+"classname" "info_null"
+"origin" "-32 -96 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 20
+{
+"classname" "info_null"
+"origin" "-32 32 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 21
+{
+"classname" "info_null"
+"origin" "-480 -96 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 22
+{
+"classname" "info_null"
+"origin" "-480 32 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 23
+{
+"classname" "info_null"
+"origin" "-32 -32 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 24
+{
+"classname" "info_null"
+"origin" "-480 -32 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 25
+{
+"classname" "info_null"
+"origin" "-32 96 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 26
+{
+"classname" "info_null"
+"origin" "-480 96 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 27
+{
+"classname" "info_null"
+"origin" "-32 160 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 28
+{
+"classname" "info_null"
+"origin" "-32 288 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 29
+{
+"classname" "info_null"
+"origin" "-480 160 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 30
+{
+"classname" "info_null"
+"origin" "-480 288 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 31
+{
+"classname" "info_null"
+"origin" "-32 224 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 32
+{
+"classname" "info_null"
+"origin" "-480 224 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 33
+{
+"classname" "info_null"
+"origin" "-32 352 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 34
+{
+"classname" "info_null"
+"origin" "-480 352 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 35
+{
+"classname" "info_null"
+"origin" "-32 416 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 36
+{
+"classname" "info_null"
+"origin" "-32 544 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 37
+{
+"classname" "info_null"
+"origin" "-480 416 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 38
+{
+"classname" "info_null"
+"origin" "-480 544 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 39
+{
+"classname" "info_null"
+"origin" "-32 480 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 40
+{
+"classname" "info_null"
+"origin" "-480 480 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 41
+{
+"classname" "info_null"
+"origin" "-32 608 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 42
+{
+"classname" "info_null"
+"origin" "-480 608 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 43
+{
+"classname" "info_null"
+"origin" "-32 672 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 44
+{
+"classname" "info_null"
+"origin" "-32 800 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 45
+{
+"classname" "info_null"
+"origin" "-480 672 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 46
+{
+"classname" "info_null"
+"origin" "-480 800 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 47
+{
+"classname" "info_null"
+"origin" "-32 736 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 48
+{
+"classname" "info_null"
+"origin" "-480 736 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 49
+{
+"classname" "info_null"
+"origin" "-32 864 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 50
+{
+"classname" "info_null"
+"origin" "-480 864 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 51
+{
+"classname" "info_null"
+"origin" "-32 928 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 52
+{
+"classname" "info_null"
+"origin" "-32 1056 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 53
+{
+"classname" "info_null"
+"origin" "-480 928 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 54
+{
+"classname" "info_null"
+"origin" "-480 1056 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 55
+{
+"classname" "info_null"
+"origin" "-32 992 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 56
+{
+"classname" "info_null"
+"origin" "-480 992 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 57
+{
+"classname" "info_null"
+"origin" "-32 1120 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 58
+{
+"classname" "info_null"
+"origin" "-480 1120 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 59
+{
+"classname" "info_null"
+"origin" "-32 1184 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 60
+{
+"classname" "info_null"
+"origin" "-32 1312 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 61
+{
+"classname" "info_null"
+"origin" "-480 1184 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 62
+{
+"classname" "info_null"
+"origin" "-480 1312 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 63
+{
+"classname" "info_null"
+"origin" "-32 1248 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 64
+{
+"classname" "info_null"
+"origin" "-480 1248 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 65
+{
+"classname" "info_null"
+"origin" "-32 1376 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 66
+{
+"classname" "info_null"
+"origin" "-480 1376 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 67
+{
+"classname" "info_null"
+"origin" "-32 1440 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 68
+{
+"classname" "info_null"
+"origin" "-32 1568 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 69
+{
+"classname" "info_null"
+"origin" "-480 1440 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 70
+{
+"classname" "info_null"
+"origin" "-480 1568 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 71
+{
+"classname" "info_null"
+"origin" "-32 1504 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 72
+{
+"classname" "info_null"
+"origin" "-480 1504 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 73
+{
+"classname" "info_null"
+"origin" "-32 1632 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 74
+{
+"classname" "info_null"
+"origin" "-480 1632 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 75
+{
+"classname" "info_null"
+"origin" "-32 1696 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 76
+{
+"classname" "info_null"
+"origin" "-32 1824 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 77
+{
+"classname" "info_null"
+"origin" "-480 1696 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 78
+{
+"classname" "info_null"
+"origin" "-480 1824 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 79
+{
+"classname" "info_null"
+"origin" "-32 1760 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 80
+{
+"classname" "info_null"
+"origin" "-480 1760 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 81
+{
+"classname" "info_null"
+"origin" "-32 1888 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 82
+{
+"classname" "info_null"
+"origin" "-480 1888 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 83
+{
+"classname" "info_null"
+"origin" "-32 1952 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 84
+{
+"classname" "info_null"
+"origin" "-32 2080 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 85
+{
+"classname" "info_null"
+"origin" "-480 1952 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 86
+{
+"classname" "info_null"
+"origin" "-480 2080 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 87
+{
+"classname" "info_null"
+"origin" "-32 2016 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 88
+{
+"classname" "info_null"
+"origin" "-480 2016 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 89
+{
+"classname" "info_null"
+"origin" "-32 2144 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 90
+{
+"classname" "info_null"
+"origin" "-480 2144 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 91
+{
+"classname" "info_null"
+"origin" "-32 2208 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 92
+{
+"classname" "info_null"
+"origin" "-32 2336 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 93
+{
+"classname" "info_null"
+"origin" "-480 2208 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 94
+{
+"classname" "info_null"
+"origin" "-480 2336 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 95
+{
+"classname" "info_null"
+"origin" "-32 2272 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 96
+{
+"classname" "info_null"
+"origin" "-480 2272 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 97
+{
+"classname" "info_null"
+"origin" "-32 2400 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 98
+{
+"classname" "info_null"
+"origin" "-480 2400 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 99
+{
+"classname" "info_null"
+"origin" "-32 2464 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 100
+{
+"classname" "info_null"
+"origin" "-32 2592 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 101
+{
+"classname" "info_null"
+"origin" "-480 2464 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 102
+{
+"classname" "info_null"
+"origin" "-480 2592 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 103
+{
+"classname" "info_null"
+"origin" "-32 2528 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 104
+{
+"classname" "info_null"
+"origin" "-480 2528 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 105
+{
+"classname" "info_null"
+"origin" "-32 2656 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 106
+{
+"classname" "info_null"
+"origin" "-480 2656 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 107
+{
+"classname" "info_null"
+"origin" "-32 2720 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 108
+{
+"classname" "info_null"
+"origin" "-32 2848 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 109
+{
+"classname" "info_null"
+"origin" "-480 2720 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 110
+{
+"classname" "info_null"
+"origin" "-480 2848 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 111
+{
+"classname" "info_null"
+"origin" "-32 2784 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 112
+{
+"classname" "info_null"
+"origin" "-480 2784 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 113
+{
+"classname" "info_null"
+"origin" "-32 2912 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 114
+{
+"classname" "info_null"
+"origin" "-480 2912 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 115
+{
+"classname" "info_null"
+"origin" "-32 2976 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 116
+{
+"classname" "info_null"
+"origin" "-32 3104 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 117
+{
+"classname" "info_null"
+"origin" "-480 2976 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 118
+{
+"classname" "info_null"
+"origin" "-480 3104 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 119
+{
+"classname" "info_null"
+"origin" "-32 3040 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 120
+{
+"classname" "info_null"
+"origin" "-480 3040 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 121
+{
+"classname" "info_null"
+"origin" "-32 3168 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 122
+{
+"classname" "info_null"
+"origin" "-480 3168 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 123
+{
+"classname" "info_null"
+"origin" "-32 3232 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 124
+{
+"classname" "info_null"
+"origin" "-32 3360 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 125
+{
+"classname" "info_null"
+"origin" "-480 3232 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 126
+{
+"classname" "info_null"
+"origin" "-480 3360 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 127
+{
+"classname" "info_null"
+"origin" "-32 3296 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 128
+{
+"classname" "info_null"
+"origin" "-480 3296 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 129
+{
+"classname" "info_null"
+"origin" "-32 3424 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 130
+{
+"classname" "info_null"
+"origin" "-480 3424 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 131
+{
+"classname" "info_null"
+"origin" "-32 3488 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 132
+{
+"classname" "info_null"
+"origin" "-32 3616 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 133
+{
+"classname" "info_null"
+"origin" "-480 3488 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 134
+{
+"classname" "info_null"
+"origin" "-480 3616 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 135
+{
+"classname" "info_null"
+"origin" "-32 3552 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 136
+{
+"classname" "info_null"
+"origin" "-480 3552 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 137
+{
+"classname" "info_null"
+"origin" "-32 3680 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 138
+{
+"classname" "info_null"
+"origin" "-480 3680 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 139
+{
+"classname" "info_null"
+"origin" "-32 3744 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 140
+{
+"classname" "info_null"
+"origin" "-32 3872 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 141
+{
+"classname" "info_null"
+"origin" "-480 3744 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 142
+{
+"classname" "info_null"
+"origin" "-480 3872 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 143
+{
+"classname" "info_null"
+"origin" "-32 3808 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 144
+{
+"classname" "info_null"
+"origin" "-480 3808 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 145
+{
+"classname" "info_null"
+"origin" "-32 3936 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 146
+{
+"classname" "info_null"
+"origin" "-480 3936 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 147
+{
+"classname" "info_null"
+"origin" "-32 4000 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 148
+{
+"classname" "info_null"
+"origin" "-32 4128 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 149
+{
+"classname" "info_null"
+"origin" "-480 4000 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 150
+{
+"classname" "info_null"
+"origin" "-480 4128 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 151
+{
+"classname" "info_null"
+"origin" "-32 4064 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 152
+{
+"classname" "info_null"
+"origin" "-480 4064 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 153
+{
+"classname" "info_null"
+"origin" "-32 4192 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 154
+{
+"classname" "info_null"
+"origin" "-480 4192 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 155
+{
+"classname" "info_null"
+"origin" "-32 4256 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 156
+{
+"classname" "info_null"
+"origin" "-32 4384 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 157
+{
+"classname" "info_null"
+"origin" "-480 4256 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 158
+{
+"classname" "info_null"
+"origin" "-480 4384 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 159
+{
+"classname" "info_null"
+"origin" "-32 4320 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 160
+{
+"classname" "info_null"
+"origin" "-480 4320 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 161
+{
+"classname" "info_null"
+"origin" "-32 4448 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 162
+{
+"classname" "info_null"
+"origin" "-480 4448 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 163
+{
+"classname" "info_null"
+"origin" "-32 4512 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 164
+{
+"classname" "info_null"
+"origin" "-32 4640 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 165
+{
+"classname" "info_null"
+"origin" "-480 4512 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 166
+{
+"classname" "info_null"
+"origin" "-480 4640 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 167
+{
+"classname" "info_null"
+"origin" "-32 4576 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 168
+{
+"classname" "info_null"
+"origin" "-480 4576 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 169
+{
+"classname" "info_null"
+"origin" "-32 4704 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 170
+{
+"classname" "info_null"
+"origin" "-480 4704 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 171
+{
+"classname" "info_null"
+"origin" "-32 4768 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 172
+{
+"classname" "info_null"
+"origin" "-32 4896 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 173
+{
+"classname" "info_null"
+"origin" "-480 4768 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 174
+{
+"classname" "info_null"
+"origin" "-480 4896 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 175
+{
+"classname" "info_null"
+"origin" "-32 4832 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 176
+{
+"classname" "info_null"
+"origin" "-480 4832 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 177
+{
+"classname" "info_null"
+"origin" "-32 4960 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 178
+{
+"classname" "info_null"
+"origin" "-480 4960 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 179
+{
+"classname" "info_null"
+"origin" "-32 5024 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 180
+{
+"classname" "info_null"
+"origin" "-32 5152 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 181
+{
+"classname" "info_null"
+"origin" "-480 5024 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 182
+{
+"classname" "info_null"
+"origin" "-480 5152 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 183
+{
+"classname" "info_null"
+"origin" "-32 5088 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 184
+{
+"classname" "info_null"
+"origin" "-480 5088 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 185
+{
+"classname" "info_null"
+"origin" "-32 5216 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
+}
+// entity 186
+{
+"classname" "info_null"
+"origin" "-480 5216 -32"
+"image" "mtrl/poof-blue"
+"width" "0.25"
+"height" "0.25"
 }
