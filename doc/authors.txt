@@ -23,11 +23,6 @@ D: Teleport design
 D: Volcano background
 D: Catseye, Cheese, Melon, Octocat, Orange, and UFO balls
 
-N: Challenge Space Yard
-E: challengespaceyard@gmail.com
-D: High-score updates
-D: Neverputt tweaks
-
 N: Wei-Lun Chao
 E: chaoweilun@gmail.com
 D: Traditional Chinese translation
@@ -173,6 +168,11 @@ D: Neverball maps
 
 N: rotajota
 D: Hillcrest Labs Loop support
+
+N: Paul Ruediger [Challenge Space Yard]
+E: challengespaceyard@gmail.com
+D: High-score updates
+D: Neverputt courses and tweaks
 
 N: Andrea Del Santo [ht-never]
 D: Esperanto translation

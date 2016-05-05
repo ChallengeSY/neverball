@@ -1,0 +1,21 @@
+shot-putt/csy.jpg
+Puttworks Gamma\Fun and balanced 18-hole Puttworks course\\Difficulty: Medium\Author: Challenge Space Yard\
+map-csyp/ZTetromino.sol
+map-csyp/ZTetromino.sol
+map-csyp/HeavyTurns.sol
+map-csyp/Bend.sol
+map-csyp/NPentomino.sol
+map-csyp/TimedMover.sol
+map-csyp/RoadTwister.sol
+map-csyp/Banks.sol
+map-csyp/Crazy.sol
+map-csyp/AdvancedBend.sol
+map-csyp/Neveris.sol
+map-csyp/MixedReview.sol
+map-csyp/Spinners.sol
+map-csyp/TurnDeLoop.sol
+map-csyp/SlimLineSlits.sol
+map-csyp/Challenger.sol
+map-csyp/BumperJumpers.sol
+map-csyp/AdvancedBanks.sol
+map-csyp/UnevenGround.sol

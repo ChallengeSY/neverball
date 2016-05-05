@@ -1,0 +1,21 @@
+shot-putt/csy2.jpg
+Puttworks Zeta\An overpowering 18-hole Puttworks course\\Difficulty: Medium to Hard\Author: Challenge Space Yard\
+map-csyp2/EasyJump.sol
+map-csyp2/EasyJump.sol
+map-csyp2/Bully.sol
+map-csyp2/EasyRamp.sol
+map-csyp2/MediumJump.sol
+map-csyp2/CautionJump.sol
+map-csyp2/DareToJump.sol
+map-csyp2/CrossPuzzle.sol
+map-csyp2/ShiftedRamp.sol
+map-csyp2/NarrowNegotiations.sol
+map-csyp2/FloodedSpires.sol
+map-csyp2/Nautilus.sol
+map-csyp2/LongJump.sol
+map-csyp2/EasyAce.sol
+map-csyp2/BentRoad.sol
+map-csyp2/Hoppers.sol
+map-csyp2/Telebreak.sol
+map-csyp2/WeirdTurbines.sol
+map-csyp2/Championship.sol
