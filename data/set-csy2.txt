@@ -2,7 +2,7 @@ Clockwork Beta
 Difficulty: Intermediate through Master\\Levels providing a greater\challenge for the experienced players\Author: Challenge Space Yard\
 csy2
 shot-csy2/CurveWorld.png
-78000	108000	144000	950	650	400
+78000	111000	150000	1000	700	400
 map-csy2/CurveWorld.sol
 map-csy2/SmallerCurves.sol
 map-csy2/DodgeThwomps.sol
@@ -21,8 +21,9 @@ map-csy2/RotationPuz.sol
 map-csy2/DDN.sol
 map-csy2/Twister.sol
 map-csy2/Impossible.sol
-map-csy2/DragonSlayer.sol
 map-csy2/Illusion.sol
+map-csy2/DragonSlayer.sol
+map-csy2/Seesaw.sol
 map-csy2/Instability.sol
 map-csy2/FuriousHoops.sol
 map-csy2/WarpZone2.sol
