@@ -22,7 +22,7 @@ struct gl_info gli;
 
 /*---------------------------------------------------------------------------*/
 
-#if !ENABLE_OPENGLES
+#if !ENABLE_OPENGLES && !defined(__EMSCRIPTEN__)
 
 PFNGLCLIENTACTIVETEXTURE_PROC    glClientActiveTexture_;
 PFNGLACTIVETEXTURE_PROC          glActiveTexture_;
@@ -99,12 +99,26 @@ int glext_assert(const char *ext)
 
 /*---------------------------------------------------------------------------*/
 
-#define SDL_GL_GFPA(fun, str) do {       \
-    ptr = SDL_GL_GetProcAddress(str);    \
-    memcpy(&fun, &ptr, sizeof (void *)); \
+#define SDL_GL_GFPA(fun, str) do {                       \
+    ptr = SDL_GL_GetProcAddress(str);                    \
+    if (!ptr)                                            \
+        log_printf("Missing OpenGL function %s\n", str); \
+    memcpy(&fun, &ptr, sizeof (void *));                 \
 } while(0)
 
 /*---------------------------------------------------------------------------*/
+
+static void log_opengl(void)
+{
+    log_printf("GL vendor: %s\n"
+               "GL renderer: %s\n"
+               "GL version: %s\n"
+               "GL extensions: %s\n",
+               glGetString(GL_VENDOR),
+               glGetString(GL_RENDERER),
+               glGetString(GL_VERSION),
+               glGetString(GL_EXTENSIONS));
+}
 
 int glext_fail(const char *title, const char *message)
 {
@@ -114,8 +128,6 @@ int glext_fail(const char *title, const char *message)
 
 int glext_init(void)
 {
-    void *ptr = 0;
-
     memset(&gli, 0, sizeof (struct gl_info));
 
     /* Common init. */
@@ -128,7 +140,8 @@ int glext_init(void)
 
     /* Desktop init. */
 
-#if !ENABLE_OPENGLES
+#if !ENABLE_OPENGLES && !defined(__EMSCRIPTEN__)
+    void *ptr = 0;
 
     if (glext_assert("ARB_multitexture"))
     {
@@ -191,6 +204,8 @@ int glext_init(void)
         SDL_GL_GFPA(glStringMarkerGREMEDY_, "glStringMarkerGREMEDY");
 
 #endif
+
+    log_opengl();
 
     return 1;
 }

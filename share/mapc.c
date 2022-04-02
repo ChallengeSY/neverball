@@ -786,7 +786,7 @@ static void read_obj(struct s_base *fp, const char *name, int mi)
     int t0 = fp->tc;
     int s0 = fp->sc;
 
-    if ((fin = fs_open(name, "r")))
+    if ((fin = fs_open_read(name)))
     {
         while (fs_gets(line, MAXSTR, fin))
         {
@@ -1200,6 +1200,8 @@ static void make_item(struct s_base *fp,
                 hp->t = ITEM_GROW;
             else if (strcmp(v[i], "item_health_small") == 0)
                 hp->t = ITEM_SHRINK;
+            else if (strcmp(v[i], "item_clock") == 0)
+                hp->t = ITEM_CLOCK;
         }
 
         if (strcmp(k[i], "light") == 0)
@@ -1505,6 +1507,7 @@ static void read_ent(struct s_base *fp, fs_file fin)
     if (!strcmp(v[i], "light"))                    make_item(fp, k, v, c);
     if (!strcmp(v[i], "item_health_large"))        make_item(fp, k, v, c);
     if (!strcmp(v[i], "item_health_small"))        make_item(fp, k, v, c);
+    if (!strcmp(v[i], "item_clock"))               make_item(fp, k, v, c);
     if (!strcmp(v[i], "info_camp"))                make_swch(fp, k, v, c);
     if (!strcmp(v[i], "info_null"))                make_bill(fp, k, v, c);
     if (!strcmp(v[i], "path_corner"))              make_path(fp, k, v, c);
@@ -2425,6 +2428,26 @@ static void sort_file(struct s_base *fp)
                 fp->hv[j] =         t;
             }
 
+    /* Sort body lumps by flags. */
+
+    for (i = 0; i < fp->bc; i++)
+    {
+        const struct b_body *bp = &fp->bv[i];
+
+        int li, lj;
+
+        for (li = bp->l0; li < bp->l0 + bp->lc; ++li)
+            for (lj = li + 1; lj < bp->l0 + bp->lc; ++lj)
+                if (fp->lv[li].fl > fp->lv[lj].fl)
+                {
+                    struct b_lump t;
+
+                    t          = fp->lv[li];
+                    fp->lv[li] = fp->lv[lj];
+                    fp->lv[lj] = t;
+                }
+    }
+
     /* Ensure the first vertex is the lowest. */
 
     for (i = 0; i < fp->vc; i++)
@@ -2674,12 +2697,23 @@ static void node_file(struct s_base *fp)
     /* Compute a bounding sphere for each lump. */
 
     for (i = 0; i < fp->lc; i++)
-        lump_bounding_sphere(fp, fp->lv + i, bsphere[i]);
-
-    /* Sort the lumps of each body into BSP nodes. */
+        if (fp->lv[i].fl == 0)
+            lump_bounding_sphere(fp, fp->lv + i, bsphere[i]);
 
     for (i = 0; i < fp->bc; i++)
-        fp->bv[i].ni = node_node(fp, fp->bv[i].l0, fp->bv[i].lc, bsphere);
+    {
+        int lc;
+
+        /* Count solid lumps. This assumes lumps have been sorted by flags. */
+
+        for (lc = 0; lc < fp->bv[i].lc; lc++)
+            if (fp->lv[fp->bv[i].l0 + lc].fl != 0)
+                break;
+
+        /* Sort the solid lumps of each body into BSP nodes. */
+
+        fp->bv[i].ni = node_node(fp, fp->bv[i].l0, lc, bsphere);
+    }
 }
 
 /*---------------------------------------------------------------------------*/
@@ -2811,7 +2845,7 @@ int main(int argc, char *argv[])
     struct timeval time0;
     struct timeval time1;
 
-    if (!fs_init(argv[0]))
+    if (!fs_init(argc > 0 ? argv[0] : NULL))
     {
         fprintf(stderr, "Failure to initialize virtual file system: %s\n",
                 fs_error());
@@ -2849,7 +2883,7 @@ int main(int argc, char *argv[])
         fs_add_path     (dir_name(src));
         fs_set_write_dir(dir_name(dst));
 
-        if ((fin = fs_open(base_name(src), "r")))
+        if ((fin = fs_open_read(base_name(src))))
         {
             if (!fs_add_path_with_archives(argv[2]))
             {

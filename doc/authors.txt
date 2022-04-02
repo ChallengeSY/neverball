@@ -166,6 +166,12 @@ D: Developer
 D: Latvian translation
 D: Neverball maps
 
+N: Paul Ruediger (Challenge Space Yard)
+E: challengespaceyard@gmail.com
+D: Collectible clocks
+D: High-score updates
+D: Neverputt tweaks
+
 N: rotajota
 D: Hillcrest Labs Loop support
 

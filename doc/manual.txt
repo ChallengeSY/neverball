@@ -182,8 +182,7 @@ values follow.
 
         These   keys  match   the  respective   key_camera_*  options.
         Accepted values are: "none" (for no mapping), "left", "right",
-        "wheelup",  "middle", "wheeldown"  or a  numeric  mouse button
-        index.
+        "middle" or a numeric mouse button index.
 
     key_forward  up
     key_backward down
@@ -301,7 +300,7 @@ values follow.
         written to the config file.)
 
     mipmap 1
-    aniso  0
+    aniso  8
 
         These  keys  control  mipmapping  and  anisotropic  filtering,
         respectively.
@@ -318,9 +317,9 @@ values follow.
         vertically than  horizontally.  For  example, if a  texture is
         applied  to a  flat surface  and seen  from far  away then  it
         appears  much wider  than high.   Anisotropic filtering  takes
-        care of  this.  To enable  it, set aniso  to a small  power of
-        two.   If  you  have  weak hardware,  this  feature  won't  do
-        anything.
+        care of this.  Its level is expressed as a small power of two.
+        To disable  it, set  aniso to 0.  If  you have  weak hardware,
+        this feature won't do anything.
 
     joystick 1
 
@@ -328,12 +327,6 @@ values follow.
         game may still be controlled with the mouse even while gamepad
         control  is enabled.   However,  random noise  from an  analog
         controller at rest can disrupt normal mouse input.
-
-    joystick_device 0
-
-        This  number selects  which joystick  to use if  more than one
-        joystick is  found. 0 is the first  joystick, 1 is the  second
-        and so on.
 
     joystick_axis_x 0
 

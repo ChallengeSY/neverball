@@ -12,6 +12,10 @@
  * General Public License for more details.
  */
 
+#ifdef __EMSCRIPTEN__
+#include <emscripten.h>
+#endif
+
 #include <string.h>
 #include <assert.h>
 
@@ -40,7 +44,7 @@
 
 static int init_title_level(void)
 {
-    if (game_client_init("map-medium/title.sol"))
+    if (game_client_init("gui/title.sol"))
     {
         union cmd cmd;
 

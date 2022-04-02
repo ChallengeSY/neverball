@@ -43,6 +43,7 @@ void log_printf(const char *fmt, ...)
         va_end(ap);
 
         fputs(str, stderr);
+        fflush(stderr);
 
         if (log_fp)
         {
@@ -69,7 +70,7 @@ void log_init(const char *name, const char *path)
 {
     if (!log_fp)
     {
-        if ((log_fp = fs_open(path, "w+")))
+        if ((log_fp = fs_open_append(path)))
         {
             /* Printed on first message. */
 
@@ -89,6 +90,8 @@ void log_quit(void)
     if (log_fp)
     {
         fs_close(log_fp);
+        log_fp = NULL;
+
         log_header[0] = 0;
     }
 }

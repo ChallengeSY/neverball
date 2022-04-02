@@ -17,6 +17,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <assert.h>
+#include <setjmp.h>
 
 #include "base_config.h"
 #include "base_image.h"
@@ -63,7 +64,7 @@ static void *image_load_png(const char *filename, int *width,
 
     /* Initialize all PNG import data structures. */
 
-    if (!(fh = fs_open(filename, "r")))
+    if (!(fh = fs_open_read(filename)))
         return NULL;
 
     if (!(readp = png_create_read_struct(PNG_LIBPNG_VER_STRING, 0, 0, 0)))
@@ -134,6 +135,25 @@ static void *image_load_png(const char *filename, int *width,
     return p;
 }
 
+/*
+ * JPEG error manager wrapper so that we don't exit() on JPEG errors.
+ */
+struct image_jpg_error
+{
+    struct jpeg_error_mgr mgr;
+
+    jmp_buf setjmp_buffer;
+};
+
+static void image_jpg_error_exit(j_common_ptr cinfo)
+{
+    struct image_jpg_error *err = (struct image_jpg_error *) cinfo->err;
+
+    cinfo->err->output_message(cinfo);
+
+    longjmp(err->setjmp_buffer, 1);
+}
+
 static void *image_load_jpg(const char *filename, int *width,
                                                   int *height,
                                                   int *bytes)
@@ -141,47 +161,57 @@ static void *image_load_jpg(const char *filename, int *width,
     unsigned char *p = NULL;
     fs_file fp;
 
-    if ((fp = fs_open(filename, "r")))
+    if ((fp = fs_open_read(filename)))
     {
         struct jpeg_decompress_struct cinfo;
-        struct jpeg_error_mgr         jerr;
+        struct image_jpg_error err;
 
         int w, h, b, i = 0;
 
         /* Initialize the JPG decompressor. */
 
-        cinfo.err = jpeg_std_error(&jerr);
-        jpeg_create_decompress(&cinfo);
+        memset(&cinfo, 0, sizeof (cinfo));
 
-        /* Set up a VFS source manager. */
+        /* Install our error_exit replacement. */
 
-        fs_jpg_src(&cinfo, fp);
+        cinfo.err = jpeg_std_error(&err.mgr);
 
-        /* Grab the JPG header info. */
+        err.mgr.error_exit = image_jpg_error_exit;
 
-        jpeg_read_header(&cinfo, TRUE);
-        jpeg_start_decompress(&cinfo);
-
-        w = cinfo.output_width;
-        h = cinfo.output_height;
-        b = cinfo.output_components;
-
-        /* Allocate the final pixel buffer and copy pixels there. */
-
-        if ((p = (unsigned char *) malloc (w * h * b)))
+        if (setjmp(err.setjmp_buffer) == 0)
         {
-            while (cinfo.output_scanline < cinfo.output_height)
+            jpeg_create_decompress(&cinfo);
+
+            /* Set up a VFS source manager. */
+
+            fs_jpg_src(&cinfo, fp);
+
+            /* Grab the JPG header info. */
+
+            jpeg_read_header(&cinfo, TRUE);
+            jpeg_start_decompress(&cinfo);
+
+            w = cinfo.output_width;
+            h = cinfo.output_height;
+            b = cinfo.output_components;
+
+            /* Allocate the final pixel buffer and copy pixels there. */
+
+            if ((p = (unsigned char *) malloc (w * h * b)))
             {
-                unsigned char *buffer = p + w * b * (h - i - 1);
-                i += jpeg_read_scanlines(&cinfo, &buffer, 1);
+                while (cinfo.output_scanline < cinfo.output_height)
+                {
+                    unsigned char *buffer = p + w * b * (h - i - 1);
+                    i += jpeg_read_scanlines(&cinfo, &buffer, 1);
+                }
+
+                if (width)  *width  = w;
+                if (height) *height = h;
+                if (bytes)  *bytes  = b;
             }
 
-            if (width)  *width  = w;
-            if (height) *height = h;
-            if (bytes)  *bytes  = b;
+            jpeg_finish_decompress(&cinfo);
         }
-
-        jpeg_finish_decompress(&cinfo);
         jpeg_destroy_decompress(&cinfo);
 
         fs_close(fp);
@@ -194,7 +224,7 @@ void *image_load(const char *filename, int *width,
                                        int *height,
                                        int *bytes)
 {
-    if (filename)
+    if (filename && strlen(filename) > 4)
     {
         const char *ext = filename + strlen(filename) - 4;
 

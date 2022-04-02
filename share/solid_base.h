@@ -84,6 +84,7 @@
 
 /* Material type flags */
 
+#define M_LIT         (1 << 11)
 #define M_PARTICLE    (1 << 10)
 #define M_ALPHA_TEST  (1 <<  9)
 #define M_REFLECTIVE  (1 <<  8)
@@ -112,6 +113,7 @@
 #define ITEM_COIN       1
 #define ITEM_GROW       2
 #define ITEM_SHRINK     3
+#define ITEM_CLOCK      4
 
 /* Path flags. */
 

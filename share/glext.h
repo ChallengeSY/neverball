@@ -23,6 +23,12 @@
 #include <windows.h>
 #endif
 
+#if ENABLE_OPENGLES
+
+#include <GLES/gl.h>
+
+#else  /* ENABLE_OPENGLES */
+
 #ifdef __APPLE__
 #include <OpenGL/gl.h>
 #else
@@ -32,6 +38,8 @@
 #ifdef _WIN32
 #include <GL/glext.h>
 #endif
+
+#endif  /* ENABLE_OPENGLES */
 
 /* Windows calling convention cruft. */
 
@@ -155,11 +163,7 @@ int glext_init(void);
 /* of the extensions we use. Otherwise, GetProc them regardless of whether   */
 /* they need it or not.                                                      */
 
-#if defined(GL_VERSION_ES_CM_1_0) || \
-    defined(GL_VERSION_ES_CM_1_1) || \
-    defined(GL_OES_VERSION_1_0)
-
-#define ENABLE_OPENGLES 1
+#if ENABLE_OPENGLES || defined(__EMSCRIPTEN__)
 
 #define glClientActiveTexture_ glClientActiveTexture
 #define glActiveTexture_       glActiveTexture
@@ -170,8 +174,13 @@ int glext_init(void);
 #define glDeleteBuffers_       glDeleteBuffers
 #define glIsBuffer_            glIsBuffer
 #define glPointParameterfv_    glPointParameterfv
+#define glPointParameterf_     glPointParameterf
 
+#ifdef __EMSCRIPTEN__
+#define glOrtho_               glOrtho
+#else
 #define glOrtho_               glOrthof
+#endif
 
 #define glStringMarker_(s) ((void) (s))
 
@@ -282,7 +291,7 @@ extern PFNGLSTRINGMARKERGREMEDY_PROC glStringMarkerGREMEDY_;
         glStringMarkerGREMEDY_(0, (s))
 
 /*---------------------------------------------------------------------------*/
-#endif /* !ENABLE_OPENGLES */
+#endif /* ENABLE_OPENGLES || defined(__EMSCRIPTEN__) */
 
 void glClipPlane4f_(GLenum, GLfloat, GLfloat, GLfloat, GLfloat);
 

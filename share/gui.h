@@ -63,10 +63,16 @@ enum trunc
     TRUNC_TAIL
 };
 
+#define GUI_ELLIPSIS "…"
+/* #define GUI_ARROW_DN "⬇" */
+#define GUI_ARROW_DN "⇩"
+
 /*---------------------------------------------------------------------------*/
 
 void gui_init(void);
 void gui_free(void);
+
+void gui_resize(void);
 
 /*---------------------------------------------------------------------------*/
 
@@ -107,6 +113,7 @@ void gui_dump(int, int);
 void gui_layout(int, int, int);
 int  gui_search(int, int, int);
 int  gui_delete(int);
+void gui_remove(int);
 
 /*---------------------------------------------------------------------------*/
 
