@@ -170,6 +170,7 @@ N: Paul Ruediger (Challenge Space Yard)
 E: challengespaceyard@gmail.com
 D: Collectible clocks
 D: High-score updates
+D: Neverball maps
 D: Neverputt tweaks
 
 N: rotajota
