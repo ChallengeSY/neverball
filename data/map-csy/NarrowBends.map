@@ -3,10 +3,10 @@
 {
 "classname" "worldspawn"
 "message" "=Narrow Bends=\Use your ball control well"
-"back" "map-back/city.sol"
+"back" "map-back/ocean.sol"
 "shot" "shot-csy/NarrowBends.png"
-"grad" "back/city.png"
-"song" "bgm/track3.ogg"
+"grad" "back/ocean.png"
+"song" "bgm/track2.ogg"
 "time" "7500"
 "goal" "12"
 "author" "Challenge Space Yard"

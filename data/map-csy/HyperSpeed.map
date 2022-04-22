@@ -3,9 +3,9 @@
 {
 "classname" "worldspawn"
 "message" "=Hyper Speed=\Brace yourself! This could get ugly"
-"back" "map-back/volcano.sol"
-"grad" "back/volcano.png"
-"song" "bgm/track6.ogg"
+"back" "map-back/jupiter.sol"
+"grad" "back/space.png"
+"song" "bgm/track4.ogg"
 "shot" "shot-csy/HyperSpeed.png"
 "time" "12000"
 "goal" "15"

@@ -2,19 +2,19 @@
 // entity 0
 {
 "classname" "worldspawn"
-"message" "=Twister=\Maintain efficient control at all costs!"
-"back" "map-back/jupiter.sol"
-"grad" "back/space.png"
-"song" "bgm/track4.ogg"
+"message" "=Twister=\Try to maintain efficient control."
+"back" "map-back/volcano.sol"
+"grad" "back/volcano.png"
+"song" "bgm/track6.ogg"
 "shot" "shot-csy2/Twister.png"
-"time" "9000"
+"time" "7500"
 "goal" "25"
 "author" "Challenge Space Yard"
-"version" "2"
+"version" "2.1"
 "levelname" "Twister"
 "coin_hs" "102 66"
-"goal_hs" "3000 6000"
-"time_hs" "3000 6000"
+"goal_hs" "3000 5400"
+"time_hs" "3000 5400"
 // brush 0
 {
 ( 192 208 0 ) ( 128 272 0 ) ( 192 272 0 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
@@ -1877,13 +1877,13 @@
 // entity 16
 {
 "classname" "info_player_intermission"
-"origin" "-832 -416 576"
+"origin" "-832 -416 640"
 "target" "intermission"
 }
 // entity 17
 {
 "classname" "target_position"
-"origin" "1024 384 128"
+"origin" "896 320 64"
 "targetname" "intermission"
 }
 // entity 18

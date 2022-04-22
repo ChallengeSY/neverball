@@ -259,9 +259,9 @@
 // entity 30
 {
 "classname" "worldspawn"
-"grad" "back/ocean.png"
-"back" "map-back/ocean.sol"
-"song" "bgm/track2.ogg"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"song" "bgm/track3.ogg"
 "shot" "shot-csy2/Pinball.png"
 "message" "=Pinball=\Time to go old-school"
 "time" "30000"
@@ -2776,7 +2776,7 @@
 "origin" "-64 -32 -192"
 "targetname" "flipperL0"
 "target" "flipperL1"
-"speed" "0.375"
+"speed" "0.5"
 }
 // entity 34
 {
@@ -2785,7 +2785,7 @@
 "targetname" "flipperL1"
 "angles" "315 0 0"
 "target" "flipperL2"
-"speed" "0.375"
+"speed" "0.5"
 }
 // entity 35
 {
@@ -2794,7 +2794,7 @@
 "targetname" "flipperL2"
 "angles" "45 0 0"
 "target" "flipperL3"
-"speed" "0.375"
+"speed" "0.5"
 }
 // entity 36
 {
@@ -2802,7 +2802,7 @@
 "origin" "64 -32 -192"
 "targetname" "flipperR0"
 "target" "flipperR1"
-"speed" "0.375"
+"speed" "0.5"
 }
 // entity 37
 {
@@ -2811,7 +2811,7 @@
 "targetname" "flipperR1"
 "angles" "315 0 0"
 "target" "flipperR2"
-"speed" "0.375"
+"speed" "0.5"
 }
 // entity 38
 {
@@ -2820,7 +2820,7 @@
 "targetname" "flipperR2"
 "angles" "315 0 0"
 "target" "flipperR3"
-"speed" "0.375"
+"speed" "0.5"
 }
 // entity 39
 {
@@ -2829,7 +2829,7 @@
 "targetname" "flipperL3"
 "angles" "45 0 0"
 "target" "flipperL4"
-"speed" "0.375"
+"speed" "0.5"
 }
 // entity 40
 {
@@ -2838,7 +2838,7 @@
 "targetname" "flipperL4"
 "angles" "45 0 0"
 "target" "flipperL1"
-"speed" "0.375"
+"speed" "0.5"
 }
 // entity 41
 {
@@ -2847,7 +2847,7 @@
 "targetname" "flipperR4"
 "angles" "315 0 0"
 "target" "flipperR1"
-"speed" "0.375"
+"speed" "0.5"
 }
 // entity 42
 {
@@ -2856,7 +2856,7 @@
 "targetname" "flipperR3"
 "angles" "45 0 0"
 "target" "flipperR4"
-"speed" "0.375"
+"speed" "0.5"
 }
 // entity 43
 {

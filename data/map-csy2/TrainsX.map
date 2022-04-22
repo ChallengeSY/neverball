@@ -3,11 +3,11 @@
 {
 "classname" "worldspawn"
 "message" "=Trains eXtreme=\Ride trains as they are\synchronized to the music"
-"back" "map-back/ocean.sol"
-"grad" "back/ocean.png"
-"song" "bgm/track2.ogg"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
 "shot" "shot-csy2/TrainsX.png"
-"version" "1"
+"version" "2"
 "author" "Challenge Space Yard"
 "coin_hs" "26 20"
 "goal" "10"
@@ -1369,7 +1369,7 @@
 "origin" "-64 -320 0"
 "targetname" "vert0"
 "target" "vert1"
-"speed" "0.75"
+"speed" "1.25"
 }
 // entity 3
 {
@@ -1385,7 +1385,7 @@
 "origin" "-64 -192 0"
 "targetname" "vert2"
 "target" "vert3"
-"speed" "0.75"
+"speed" "1.25"
 }
 // entity 5
 {
@@ -1449,7 +1449,7 @@
 "origin" "-192 -64 0"
 "targetname" "horz0"
 "target" "horz1"
-"speed" "0.75"
+"speed" "1.25"
 }
 // entity 15
 {
@@ -1465,7 +1465,7 @@
 "origin" "-320 -64 0"
 "targetname" "horz2"
 "target" "horz3"
-"speed" "0.75"
+"speed" "1.25"
 }
 // entity 17
 {

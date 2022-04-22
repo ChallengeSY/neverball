@@ -8,10 +8,11 @@
 "version" "2"
 "time" "21000"
 "bonus" "1"
-"song" "bgm/track1.ogg"
-"back" "map-back/clouds.sol"
-"grad" "back/land.png"
+"song" "bgm/track2.ogg"
+"back" "map-back/ocean.sol"
+"grad" "back/ocean.png"
 "shot" "shot-csy2/Minesweeper.png"
+"time_hs" "6000 12000"
 // brush 0
 {
 ( -64 -64 0 ) ( -64 -128 0 ) ( -128 -64 0 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0

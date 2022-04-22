@@ -3,10 +3,10 @@
 {
 "classname" "worldspawn"
 "message" "=Speed Jumps=\High speed, incoming!"
-"back" "map-back/ocean.sol"
+"back" "map-back/city.sol"
 "shot" "shot-csy2/SpeedJumps.png"
-"grad" "back/ocean.png"
-"song" "bgm/track2.ogg"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
 "time" "6000"
 "goal" "40"
 "author" "Challenge Space Yard"

@@ -3,10 +3,10 @@
 {
 "classname" "worldspawn"
 "message" "=Warp Zone I=\Your dangerous mission is to travel\full speed through a warp zone"
-"song" "bgm/track3.ogg"
+"song" "bgm/track6.ogg"
 "shot" "shot-csy2/WarpZone1.png"
-"back" "map-back/city.sol"
-"grad" "back/city.png"
+"back" "map-back/volcano.sol"
+"grad" "back/volcano.png"
 "time" "3500"
 "goal" "0"
 "author" "Challenge Space Yard"

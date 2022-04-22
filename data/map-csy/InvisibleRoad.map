@@ -10,7 +10,7 @@
 "goal" "10"
 "song" "bgm/track3.ogg"
 "author" "Challenge Space Yard"
-"version" "2"
+"version" "2.01"
 "levelname" "Invisible Road"
 "goal_hs" "1500 2250"
 "coin_hs" "28 18"
@@ -1071,6 +1071,7 @@
 "classname" "info_camp"
 "origin" "64 -128 0"
 "target" "revealA0"
+"timer" "90"
 }
 // entity 31
 {

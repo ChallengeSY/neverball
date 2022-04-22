@@ -2,14 +2,13 @@
 // entity 0
 {
 "classname" "worldspawn"
-"grad" "back/ocean.png"
-"back" "map-back/ocean.sol"
-"song" "bgm/track2.ogg"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"song" "bgm/track3.ogg"
 "shot" "shot-csy/Turbines.png"
 "version" "1"
-"bonus" "1"
 "author" "Challenge Space Yard"
-"message" "=Turbines=\Have fun collecting coins under pressure!"
+"message" "=Turbines=\Spin me right around!"
 "coin_hs" "68 30"
 "goal" "10"
 "time" "10500"

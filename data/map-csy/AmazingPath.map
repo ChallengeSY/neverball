@@ -3,10 +3,10 @@
 {
 "classname" "worldspawn"
 "message" "=aMazing Path=\There are many small and\dangerous paths to undertake."
-"back" "map-back/jupiter.sol"
+"back" "map-back/volcano.sol"
 "shot" "shot-csy/AmazingPath.png"
-"grad" "back/space.png"
-"song" "bgm/track4.ogg"
+"grad" "back/volcano.png"
+"song" "bgm/track6.ogg"
 "time" "13500"
 "goal" "10"
 "author" "Challenge Space Yard"
